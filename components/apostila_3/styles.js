@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
     container: {
       flex: 1, 
       justifyContent: 'center', 
-      backgroundColor: '#F5F5F5', 
+      backgroundColor: '#ffffff', 
       padding: 8, 
     }, 
     paragraph: {
@@ -12,16 +12,32 @@ const styles = StyleSheet.create({
       fontSize: 26, 
       fontWeight: 'bold', 
       textAlign: 'center', 
-      color: '#9E9E9E', 
+      color: '#000000', 
     }, 
-    button: {
-      backgroundColor: '#9E9E9E', 
+    button1: {
+      backgroundColor: '#95BFA4', 
       height: 60, 
       justifyContent: 'center', 
+      marginHorizontal: 13,
     }, 
+    button2: {
+      backgroundColor: '#95BFA4', 
+      height: 60, 
+      justifyContent: 'center', 
+      marginHorizontal: 13,
+    }, 
+    button3: {
+      backgroundColor: '#95BFA4', 
+      height: 60, 
+      justifyContent: 
+      marginVertical: 13,
+    }, 
+
+
+    
     textButton: {
       fontSize: 20, 
-      color: '#fff', 
+      color: '#ffffff', 
       textAlign: 'center', 
     }, 
     counter: {
@@ -33,7 +49,7 @@ const styles = StyleSheet.create({
     }, 
     textCounter: {
       fontSize: 32, 
-      color: '#424242', 
+      color: '#', 
       textAlign: 'center',    
       fontWeight: 'bold', 
       padding: 8, 
