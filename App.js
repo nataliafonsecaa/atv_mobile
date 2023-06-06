@@ -3,17 +3,21 @@ import { StyleSheet, View } from 'react-native';
 
 import Constants from 'expo-constants';
 
+//import Index from './components/apostila_05';
+
+
 import Apostila_03 from './components/apostila_3';
 import Apostila_04 from './components/apostila04';
+import Apostila_05 from './components/apostila_05';
 
-const corApp ='#fff';
+//const corApp ='#fff';
 
 export default function App() {
 
   return (
     <View style={styles.container}>
-      <Apostila_04/>
-      <StatusBar style={corApp==='#000' ? 'light' : 'dark'} />
+      <Apostila_05/>
+
     </View>
   );
 }
@@ -22,10 +26,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    alignItems:'center',
+   // alignItems:'center',
     paddingTop: Constants.statusBarHeight,
-    backgroundColor: corApp ,
+    backgroundColor: '#C51162',
     padding: 8,
 
   },
+
 });
