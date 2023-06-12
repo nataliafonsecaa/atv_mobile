@@ -1,22 +1,23 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, View } from 'react-native';
-
+//import { StatusBar } from 'expo-status-bar';
+import * as React from  'react'; 
+import {StyleSheet, View } from 'react-native';
 import Constants from 'expo-constants';
 
-//import Index from './components/apostila_05';
+import Index from './components/apostila_06';
 
 
 import Apostila_03 from './components/apostila_3';
 import Apostila_04 from './components/apostila04';
 import Apostila_05 from './components/apostila_05';
+import Apostila_06 from './components/apostila_06';
 
-//const corApp ='#fff';
+
 
 export default function App() {
 
   return (
     <View style={styles.container}>
-      <Apostila_05/>
+      <Apostila_06/>
 
     </View>
   );
@@ -28,7 +29,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
    // alignItems:'center',
     paddingTop: Constants.statusBarHeight,
-    backgroundColor: '#C51162',
+    backgroundColor: '#AAA',
     padding: 8,
 
   },
