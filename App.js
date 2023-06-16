@@ -17,7 +17,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Apostila_06/>
+      <Apostila_04 />
 
     </View>
   );
